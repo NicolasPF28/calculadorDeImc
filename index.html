@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculador de IMC</title>
+    </head>
+    <body>
+        <div id="logo">
+            <h1>Calculador de IMC</h1>
+        </div>
+        <p></p>
+        <div class="layout"> 
+            <p>Idade: <input type="number" class="input" id="idade" required></p>                
+            <p>Peso: <input type="number" class="input" id="peso" required></p>
+            <p>Altura: <input type="number" class="input" id="altura" required></p>
+            <button type="submit" id="calcular">Calcular</button>
+            <br>
+            <p>Seu IMC: <input type="text" id="resultadoImc" class="ajuste1819" required disabled></p>
+            <p>Definição: <input type="text" id="definicao" class="ajuste1819" required disabled></p>
+            <div id="ajuste68">
+                <p>*Todos os valores são aproximados. Para mais informações, consulte um nutricionista.</p>
+            </div>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+        <script src="server.js"></script>
+    </body>
+</html>
